@@ -1,0 +1,11 @@
+USER
+    1. name
+    2. dob
+    3. bio 
+    4. email
+    5. profile pic 
+    6. username
+    7. password
+
+
+populate querry => const user = await User.findOne({email:"ashok@gmail.com"}).populate('followers','username').populate('following','username');

@@ -1,0 +1,83 @@
+.wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    height: 100vh auto;
+    text-align: center;
+    width: 350px;
+    background-color: rgba(240, 240, 245, 0.979);
+}
+.insta{
+    margin-top: 30px;
+    font-family: Cursive;
+    font-size: 40px;
+}
+.disc{
+    font-size: 20px;
+    color: darkgray;
+}
+.input-field{
+    height: 35px;
+    width: 250px;
+    border-radius: 2px;
+    border: 1px solid grey;
+    margin: -5px;
+    border-width: thin;
+}
+.btn{
+    width: 260px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:rgba(0, 132, 255, 0.973);
+    color: wheat;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border: none;
+}
+.loginwith-face{
+    margin-left: 50px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:rgba(0, 132, 255, 0.973);
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+    border: none; 
+}
+.loginwith-face img{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.content{
+    font-size: 12px;
+    color: darkgray;
+}
+.content a{
+    color: darkgray;
+    font-weight: bold;
+}
+
+.acc{
+    margin-top: 20px;
+    margin-left: 578px;
+    background-color: darkgray;
+    width: 352px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acc p{
+    color: black;
+}
+.acc p a{
+    text-decoration: none;
+}

@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.appLogo{
+  font-family: 'Dancing Script', 'cursive';
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body{
+  background-color: #CAD1C9;
+}
+.tob-bar-icons{
+  padding: 10px;
+}
+
+.inputField{
+  height: 40px;
+  width: 100%;
+  font-size: large;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.editLink{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  margin-left: 50px;
+  padding: 2px;
+}
+
+.username{
+  font-size:xx-large;
+}
+.hidenScrollBar::-webkit-scrollbar{
+display: none;
+}
+
+
+.custom-file-upload{
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+  /* border: 1px solid black; */
+  text-align: center;
+    display: table;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.wrapper img {
+  width: 100%;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}

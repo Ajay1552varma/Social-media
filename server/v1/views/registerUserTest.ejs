@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>User register</h1>
+    <form action="/auth/register" method="POST" enctype="multipart/form-data">
+        <input type="text" name="name" id="name" placeholder="name" > <br>
+        <input type="date" name="dob" id="dob" placeholder="dob"><br>
+        <input type="text" name="bio" id="bio" placeholder="bio"><br>
+        <input type="text" name="email" id="email" placeholder="email"><br>
+        <input type="file" name="profilePic" id="profilePic" placeholder="profilePic"><br>
+        <input type="text" name="username" id="username" placeholder="username"><br>
+        <input type="text" name="password" id="password" placeholder="password"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
